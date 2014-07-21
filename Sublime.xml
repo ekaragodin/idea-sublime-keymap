@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keymap version="1" name="Sublime" parent="$default">
+  <action id="CompareDirs" />
+  <action id="CompareJars" />
+  <action id="CompareTwoFiles" />
+  <action id="Console.TableResult.NextPage" />
+  <action id="Console.TableResult.PreviousPage" />
+  <action id="Console.TableResult.Reload" />
+  <action id="DatabaseView.CopyAction" />
+  <action id="DatabaseView.ShowDiff" />
+  <action id="Diff.UpdatedFiles" />
+  <action id="EditorCloneCaretAbove">
+    <keyboard-shortcut first-keystroke="control alt UP" />
+  </action>
+  <action id="EditorCloneCaretBelow">
+    <keyboard-shortcut first-keystroke="control alt DOWN" />
+  </action>
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="shift control K" />
+  </action>
+  <action id="EditorDuplicate">
+    <keyboard-shortcut first-keystroke="shift control D" />
+  </action>
+  <action id="FileChooser.GotoDesktop" />
+  <action id="FileChooser.TogglePathShowing" />
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="control R" />
+  </action>
+  <action id="Find">
+    <keyboard-shortcut first-keystroke="control F" />
+  </action>
+  <action id="FindNext">
+    <keyboard-shortcut first-keystroke="F3" />
+  </action>
+  <action id="FindPrevious">
+    <keyboard-shortcut first-keystroke="shift F3" />
+  </action>
+  <action id="Git.Push" />
+  <action id="GotoAction">
+    <keyboard-shortcut first-keystroke="shift control P" />
+  </action>
+  <action id="GotoDeclaration">
+    <mouse-shortcut keystroke="control button1" />
+    <mouse-shortcut keystroke="button2" />
+    <keyboard-shortcut first-keystroke="F12" />
+  </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="control P" />
+  </action>
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="shift control R" />
+  </action>
+  <action id="JumpToLastWindow" />
+  <action id="NextOccurence" />
+  <action id="ParameterInfo" />
+  <action id="PreviousOccurence" />
+  <action id="Replace">
+    <keyboard-shortcut first-keystroke="control H" />
+  </action>
+  <action id="ReplaceInPath" />
+  <action id="SelectNextOccurrence">
+    <keyboard-shortcut first-keystroke="alt J" />
+    <keyboard-shortcut first-keystroke="control D" />
+  </action>
+  <action id="SendEOF" />
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="shift alt ENTER" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="shift alt DOWN" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="shift alt LEFT" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="shift alt RIGHT" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="shift alt UP" />
+  </action>
+  <action id="TypeHierarchy" />
+  <action id="Uml.ShowDiff" />
+  <action id="hg4idea.push" />
+</keymap>
+
