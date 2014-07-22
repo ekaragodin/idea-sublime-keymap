@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <keymap version="1" name="Sublime" parent="$default">
+  <action id="CheckinProject" />
+  <action id="CollapseAllRegions">
+    <keyboard-shortcut first-keystroke="control K" second-keystroke="control 1" />
+  </action>
+  <action id="CollapseRegion">
+    <keyboard-shortcut first-keystroke="shift control OPEN_BRACKET" />
+  </action>
   <action id="CompareDirs" />
   <action id="CompareJars" />
   <action id="CompareTwoFiles" />
+  <action id="Console.Jpa.GenerateSql" />
   <action id="Console.TableResult.NextPage" />
   <action id="Console.TableResult.PreviousPage" />
   <action id="Console.TableResult.Reload" />
   <action id="DatabaseView.CopyAction" />
   <action id="DatabaseView.ShowDiff" />
   <action id="Diff.UpdatedFiles" />
+  <action id="EditorChooseLookupItemCompleteStatement" />
   <action id="EditorCloneCaretAbove">
     <keyboard-shortcut first-keystroke="control alt UP" />
   </action>
@@ -16,23 +25,44 @@
     <keyboard-shortcut first-keystroke="control alt DOWN" />
   </action>
   <action id="EditorCodeBlockEnd" />
+  <action id="EditorCodeBlockEndWithSelection" />
   <action id="EditorCodeBlockStart" />
+  <action id="EditorCodeBlockStartWithSelection" />
+  <action id="EditorCompleteStatement" />
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="shift control K" />
+  </action>
+  <action id="EditorDeleteToLineEnd">
+    <keyboard-shortcut first-keystroke="control K" second-keystroke="control K" />
+  </action>
+  <action id="EditorDeleteToLineStart">
+    <keyboard-shortcut first-keystroke="control K" second-keystroke="control BACK_SPACE" />
   </action>
   <action id="EditorDuplicate">
     <keyboard-shortcut first-keystroke="shift control D" />
   </action>
-  <action id="EditorIndentSelection">
-    <keyboard-shortcut first-keystroke="TAB" />
+  <action id="EditorIndentLineOrSelection">
     <keyboard-shortcut first-keystroke="control CLOSE_BRACKET" />
   </action>
   <action id="EditorJoinLines">
     <keyboard-shortcut first-keystroke="control J" />
   </action>
+  <action id="EditorStartNewLineBefore">
+    <keyboard-shortcut first-keystroke="shift control ENTER" />
+  </action>
+  <action id="EditorToggleCase">
+    <keyboard-shortcut first-keystroke="control K" second-keystroke="control U" />
+    <keyboard-shortcut first-keystroke="control K" second-keystroke="control L" />
+  </action>
   <action id="EditorUnindentSelection">
     <keyboard-shortcut first-keystroke="shift TAB" />
     <keyboard-shortcut first-keystroke="control OPEN_BRACKET" />
+  </action>
+  <action id="ExpandAllRegions">
+    <keyboard-shortcut first-keystroke="control K" second-keystroke="control J" />
+  </action>
+  <action id="ExpandRegion">
+    <keyboard-shortcut first-keystroke="shift control CLOSE_BRACKET" />
   </action>
   <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.TogglePathShowing" />
