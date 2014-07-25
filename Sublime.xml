@@ -93,6 +93,10 @@
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="shift control R" />
   </action>
+  <action id="ImplementMethods" />
+  <action id="IncrementalSearch">
+    <keyboard-shortcut first-keystroke="control I" />
+  </action>
   <action id="InsertLiveTemplate" />
   <action id="JumpToLastWindow" />
   <action id="NextOccurence" />
@@ -107,6 +111,7 @@
     <keyboard-shortcut first-keystroke="control D" />
   </action>
   <action id="SendEOF" />
+  <action id="ShowBookmarks" />
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="shift alt ENTER" />
   </action>
@@ -121,6 +126,13 @@
   </action>
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="shift alt UP" />
+  </action>
+  <action id="ToggleBookmark" />
+  <action id="ToggleFullScreen">
+    <keyboard-shortcut first-keystroke="F11" />
+  </action>
+  <action id="TogglePresentationMode">
+    <keyboard-shortcut first-keystroke="shift F11" />
   </action>
   <action id="TypeHierarchy" />
   <action id="Uml.ShowDiff" />
