@@ -1,6 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <keymap version="1" name="Sublime" parent="$default">
   <action id="CheckinProject" />
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="control W" />
+  </action>
   <action id="CollapseAllRegions">
     <keyboard-shortcut first-keystroke="control K" second-keystroke="control 1" />
   </action>
@@ -46,6 +48,9 @@
   </action>
   <action id="EditorJoinLines">
     <keyboard-shortcut first-keystroke="control J" />
+  </action>
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="control L" />
   </action>
   <action id="EditorStartNewLineBefore">
     <keyboard-shortcut first-keystroke="shift control ENTER" />
@@ -138,4 +143,3 @@
   <action id="Uml.ShowDiff" />
   <action id="hg4idea.push" />
 </keymap>
-
