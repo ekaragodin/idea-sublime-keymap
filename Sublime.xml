@@ -12,6 +12,8 @@
   <action id="CompareDirs" />
   <action id="CompareJars" />
   <action id="CompareTwoFiles" />
+  <action id="Console.Jdbc.Execute" />
+  <action id="Console.Jpa.Execute" />
   <action id="Console.Jpa.GenerateSql" />
   <action id="Console.TableResult.NextPage" />
   <action id="Console.TableResult.PreviousPage" />
@@ -51,6 +53,12 @@
   </action>
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="control L" />
+  </action>
+  <action id="EditorSplitLine">
+    <keyboard-shortcut first-keystroke="shift ENTER" />
+  </action>
+  <action id="EditorStartNewLine">
+    <keyboard-shortcut first-keystroke="control ENTER" />
   </action>
   <action id="EditorStartNewLineBefore">
     <keyboard-shortcut first-keystroke="shift control ENTER" />
@@ -103,6 +111,7 @@
     <keyboard-shortcut first-keystroke="control I" />
   </action>
   <action id="InsertLiveTemplate" />
+  <action id="IpnbRunCellInplaceAction" />
   <action id="JumpToLastWindow" />
   <action id="NextOccurence" />
   <action id="ParameterInfo" />
@@ -141,5 +150,6 @@
   </action>
   <action id="TypeHierarchy" />
   <action id="Uml.ShowDiff" />
+  <action id="ViewSource" />
   <action id="hg4idea.push" />
 </keymap>
