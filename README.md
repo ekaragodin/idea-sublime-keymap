@@ -10,3 +10,5 @@ Copy Sublime.xml to config directory.
 Windows and *NIX systems: `<User home>/.IntelliJ IDEA <xx>/config/keymaps/`
 
 Macintosh systems: `~/Library/Preferences/.IntelliJ IDEA <xx>/keymaps/`
+
+To actually change the keymap open settings (ctrl-alt-s), select the keymap tab and choose "Sublime" in the dropdown menu.
